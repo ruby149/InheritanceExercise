@@ -31,6 +31,7 @@ namespace Inheritance
 
                 Console.WriteLine($"it does have eyes: {animal.HasEyes}");
                 Console.WriteLine($"Does it live in land,sea or air? {animal.LandSeaAir}");
+                Console.WriteLine();
 
 
 
@@ -41,6 +42,7 @@ namespace Inheritance
             Console.WriteLine($"it does have feathers? {myBird.HasFeathers}");
             Console.WriteLine($"the age of the bird is {myBird.Age}");
             Console.WriteLine($"it does have a beak? {myBird.HasBeak}");
+            Console.WriteLine();
 
             Console.WriteLine($"It does have scales {myReptile.HasScales}");
             Console.WriteLine($"Does it live in land or sea? {myReptile.LandSea}");
